@@ -1,0 +1,59 @@
+/* /* Style général pour le corps */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+}
+
+/* Navbar style */
+.navbar {
+    background-color: #333;
+    border-bottom: 3px solid #ff6600;
+    margin: 15px 15px;
+    justify-content: center;
+}
+
+.navbar-brand {
+    color: #ff6600 !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #fff !important;
+    margin-right: 10px;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #ff6600 !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%288, 8, 8, 0.5%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.form-control {
+    border-radius: 20px;
+    border: 1px solid #ff6600;
+}
+
+.btn-outline-success {
+    color: #ff6600;
+    border-color: #ff6600;
+}
+
+.btn-outline-success:hover {
+    background-color: #ff6600;
+    color: #fff;
+    border-color: #ff6600;
+}
+.total-price-container {
+    font-family: serif;
+
+    text-decoration: solid;
+    text-decoration: underline;
+    color: #ff6600;
+}
